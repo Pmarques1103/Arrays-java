@@ -1,0 +1,11 @@
+//const nota1 = 10;
+//const nota2 = 6,5;
+//const nota3 = 8;
+//const nota4 = 7,5;
+//todo array eh uma lista numerada que começa sempre no indice zero ate infinito. elemento eh o valor que esta dentro de cada indice. Um array pode ser definido como uma lista ordenada de valores enumerados em que cada valor é chamado de elemento, ou item, e cada elemento se localiza numa posição fixa na lista chamada de índice.
+
+const notas = [10, 6.5, 8, 7.5];
+const media = (notas[0] + notas[1] + notas[2] + notas[3]) /notas.length;
+
+console.log(media);
+
